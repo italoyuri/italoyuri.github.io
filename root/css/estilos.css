@@ -3,8 +3,13 @@ body {
   background-size: auto 100vh; 
   font-family: Arial;
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
+header {
+  height: 1vh;
+}
 .menu {
   background-color: white;
 }
@@ -29,7 +34,7 @@ a:hover {
 
 .site-subtitle, 
 .site-title {
-  color: whitesmoke;
+  color: #0e0e0e;
   text-align: center;
 }
 
@@ -38,5 +43,9 @@ a:hover {
 }
 
 main {
-    height: 960px;
+  height: 98vh;
+}
+
+footer {
+  height: 1vh;
 }
