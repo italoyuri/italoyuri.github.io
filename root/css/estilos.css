@@ -43,9 +43,15 @@ a:hover {
 }
 
 main {
-  height: 98vh;
+  height: 95vh;
 }
 
 footer {
   height: 1vh;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+  text-decoration: underline;
 }
